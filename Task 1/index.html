@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza House Landing Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <header id="intro" style="background-image: url('intro_background.jpg');">
+        <div class="header-card">
+        <h1>Pizza House</h1>
+        <p>Your favourite</p></div>
+        <br><br><br><br><br>
+        <div class="card">
+        <p>This is a demo Pizza shop website with <br> HTML and CSS as part of internship at Octanet</p>
+        <a href="#menu" class="btn">Let's explore...</a>
+        </div>
+    </header>
+
+    <section id="menu" class="section" style="background-image: url('menu_background.jpg');">
+        <div class="menu-top">
+            <h2 style="color: rgb(165, 87, 42);">Our Menu</h2>
+        <div class="menu-card">
+            <div class="menu-item">
+                <img src="menu/double_pepperoni.png" alt="Double Pepporoni Pizza">
+                <h3>Double Pepporoni Pizza</h3>
+                <p>S $8.50 | L $10.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="menu/hawaiian.png" alt="hawaiian Pizza">
+                <h3>Hawaiian Pizza</h3>
+                <p>S $9.50 | L $12.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="menu/margherita.png" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>M $11.75 | L $14.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="menu/bacon&bbq.png" alt="Bacon & BBQ Pizza">
+                <h3>Bacon & BBQ Pizza</h3>
+                <p>M $11.75 | L $14.75</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background-image: url('contact_background.png');">
+        <div class="card">
+        <h2>Contact Us</h2>
+        <p>Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar vitae sem.</p>
+        <p>Phone: 010-020-0340</p>
+        <p>Email: demo@company.com</p>
+        <a href="#about" class="btn">About</a>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="background-image: url('about_background.jpg');">
+        <div class="card">
+        <h2>About Us</h2>
+        <p>About our Shop</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#contact" class="btn">Contact</a>
+        <a href="#intro" class="btn top-btn">Go to top</a>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pizza House. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

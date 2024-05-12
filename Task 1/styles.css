@@ -1,0 +1,205 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #333; /* Set default text color to grey */
+}
+
+/* Set background color for text elements to grey */
+header, .section, footer {
+    background-color: #ccc; /* Grey background color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right; /* Align list items to the right */
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust margin for spacing */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: gold;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.header-card {
+    background-color: #2d2a2ab1; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: center; /* Align text content in the center */
+}
+
+.header-card p {
+    color: #b9863fd6;
+}
+
+.card {
+    background-color: #372f2f85; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: center; /* Align text content in the center */
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(198, 110, 33, 0.5);
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-top {
+    padding-top: 15px;
+}
+
+.menu-top h2 {
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.629);
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: center; /* Align text content in the center */
+}
+
+.menu-card {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-around; /* Evenly space items horizontally */
+    margin-bottom: 40px; /* Add margin between menu cards */
+}
+
+.menu-item {
+    background-color: #55381785; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: center; /* Align text content in the center */
+    width: 45%; /* Set width of menu item */
+}
+
+.menu-item img {
+    width: 100%; /* Make image fill the container */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(141, 69, 6);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffad42da;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ff9300;
+}
+
+.top-btn {
+    margin-left: 20px;
+}
